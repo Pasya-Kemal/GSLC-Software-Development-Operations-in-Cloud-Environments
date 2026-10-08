@@ -67,6 +67,15 @@ Jika port 8080 sedang dipakai, ubah `127.0.0.1:8080:80` menjadi `127.0.0.1:8081:
 
 ## Pengumpulan tugas
 
+Untuk mengunggah proyek lokal ini menggunakan GitHub CLI, jalankan dari folder proyek yang sudah menjadi repository Git dan memiliki commit:
+
+```sh
+gh auth login
+gh repo create gslc-php-docker --public --source=. --remote=origin --push
+```
+
+Jika nama repository tersebut sudah digunakan, pilih nama lain. Perintah ini membuat repository publik baru dan mengunggah commit lokal.
+
 Pastikan repositori GitHub ini **Public**, lalu salin URL repositori ke balasan thread GSLC.
 
 Contoh balasan (ganti bagian dalam kurung siku):
